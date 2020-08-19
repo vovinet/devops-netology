@@ -1,6 +1,7 @@
 # devops-netology
 # edited by Vladimir Zubarev
 # Added new line
+Данная строка была добавлена в PyCharm
 Игнорируем каталог .terraform, 
 файлы   tfstate, 
         crashlog, 

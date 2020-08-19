@@ -2,7 +2,7 @@
 # edited by Vladimir Zubarev
 # Added new line
 Данная строка была добавлена в PyCharm
-#New Title via PyCharm
+#PyCharm Auth Test
 Игнорируем каталог .terraform, 
 файлы   tfstate, 
         crashlog, 

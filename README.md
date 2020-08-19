@@ -1,5 +1,6 @@
 # devops-netology
 # edited by Vladimir Zubarev
+# Added new line
 Игнорируем каталог .terraform, 
 файлы   tfstate, 
         crashlog, 

@@ -12,6 +12,13 @@ resource "aws_vpc" "my_vpc" {
     Name = "tf-example"
   }
 }
+terraform {
+  backend "s3" {
+    bucket = "vovinet-netology-s3-01"
+    key    = "state"
+    region = "eu-central-1"
+  }
+}
 
 resource "aws_subnet" "my_subnet" {
   vpc_id            = aws_vpc.my_vpc.id
